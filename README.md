@@ -1,4 +1,4 @@
-# simpLex
+# simpLex.hpp
 Simple and fast lexer in C++ header (and example of json output)     
    
 Easy to modify. Can register new symbols (operators) at runtime.  
