@@ -1,7 +1,7 @@
 # simpLex
 Simple and fast lexer in C++ header (and example of json output)     
    
-Easy to modify. Can register new symbols and identifiers at runtime.  
+Easy to modify. Can register new symbols (operators) at runtime.  
 Useful if your language needs user-defined operators at runtime (operators 'split' text like whitespace would)   
   
 Features:   
