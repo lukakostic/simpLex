@@ -1,0 +1,19 @@
+/*
+   /*  Nested comment!  */
+*/
+for(int j = 0; j <lex.parsed.size(); j++){
+        auto& s = lex.parsed[j];
+        if(s.type == s.Symbol){
+            ss << "[0,\"";
+            escapedJSON(lex.symbols[s.data_index].str, ss);
+            ss << "\"]";
+            //std::cout<<"Symbol:"<< lex.symbols[s.data_index].str << std::endl;
+        }else if(s.type == s.Identifier){
+            auto sx = lex.stringStorage_entries[s.data_index].to_string(lex.stringStorage);
+            //std::cout<<"Ident:"<< Util::StringView(lex.stringStorage.allStrings,e.start,e.end).to_string() << std::endl;
+            if(s.data_index<reservedWordsIdx) ss<<"[0,\"";
+            else ss << "[1,\"";
+            escapedJSON(sx,ss);
+            ss << "\"]";
+        }
+}
