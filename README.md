@@ -12,5 +12,5 @@ Features:
 - Registering new operators at runtime.   
 - Optional newline emitting (useful for one-line statement ending like `#define` in C), escaped newlines ignored.  
       
-Comes with an example usage file `example.cpp + example.txt` which prints out the json of all symbols parsed.  
+Comes with an example usage file `example.cpp + example.txt` which prints out the json of all symbols parsed, as well as all registered symbols.  
   
