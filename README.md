@@ -8,7 +8,7 @@ Features:
 - Identifiers with numbers at end or certain symbols at start.   
 - Strings using " , ' , ` and ``` . escaped chars.     
 - Single and multiline comments, even nested (toggleable).     
-- Numbers, even `.3 -> 0.3` or `3. -> 3.0` or `-3` , scientific notation.     
+- Numbers, even `.3` (0.3) or `3.` (3.0) or `-3` (toggleable `-` merging) , scientific notation.     
       
 Comes with an example usage file `example.cpp + example.txt` which prints out the json of all symbols parsed.  
   
