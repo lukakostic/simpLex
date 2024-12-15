@@ -5,7 +5,7 @@ Easy to modify. Can register new symbols (operators) at runtime.
 Useful if your language needs user-defined operators at runtime (operators 'split' text like whitespace would)   
   
 Features:   
-- Identifiers with numbers at end (or certain symbols at start).   
+- Identifiers with numbers at end or certain symbols at start.   
 - Strings using " , ' , ` and ``` . escaped chars.     
 - Single and multiline comments, even nested (toggleable).     
 - Numbers, even `.3 -> 0.3` or `3. -> 3.0` or `-3` , scientific notation.     
